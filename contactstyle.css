@@ -1,0 +1,87 @@
+/*CONTACT*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    padding-top: 1%;
+    padding-left: 3.5%;
+    border-bottom: 15px solid red; 
+    background-color: red; 
+    bottom: 82%;
+}
+
+.fix {
+    position: fixed;
+    width: 100%;
+}
+
+.column/*LOTTAJAEGER*/{
+    flex-direction: column;
+
+}
+
+.topp{
+    padding-top: 1%;
+    padding-left: 1%;
+    display: flex;
+    gap: 20px;
+
+}
+
+.contact-form-container {
+    background: #634133;
+    padding: 100px;
+    border-radius: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.contact-form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #efdd8d;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #B3D3FA;
+    border-radius: 16px;
+}
+
+form button {
+    background-color: #c8bfc7;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #efdd8d;
+}
+
+.feedback {
+    color: green;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+}
